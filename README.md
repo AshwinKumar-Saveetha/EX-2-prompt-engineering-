@@ -5,6 +5,7 @@ Test and compare how different pattern models respond to various prompts (broad 
      Analyze the quality, accuracy, and depth of the generated responses.
 
 # OUTPUT
+```
 Purpose: To test and compare how two large language models — ChatGPT and Gemini — respond to different prompting patterns, specifically examining their behavior when given broad (unstructured) versus refined (clear) prompts, across different prompt styles.
 Prompt Type 1: Intuition Behind Prompts
 🔹 Prompt A (Broad):
@@ -93,9 +94,10 @@ Machine learning models, on the other hand, learn from data, handle complex prob
 
 Gemini:
 Rule-based systems excel in well-defined problems with clear, logical rules, offering transparency and consistency. However, they struggle with complex, dynamic situations requiring adaptation and learning. Machine learning models, on the other hand, learn from data to solve intricate problems, improve with more data, and handle ambiguity, but can be less transparent and require significant data for training.
-
+```
 
 # RESULT:
+```
 Based on the analysis of quality, accuracy, and depth, both AI models perform well, with slight differences:
 1.	Quality:
 Chat GPT provides more detailed explanations, while Gemini is generally more concise and focused.
@@ -104,3 +106,4 @@ Complex scenarios tend to be handled more accurately by ChatGPT, whereas simpler
 3.	Depth:
 Gemini offers deeper responses in unstructured or broad prompts, while ChatGPT is more efficient in structured, refined prompts.
 Overall, the best model depends on user preference for detail, clarity, and the complexity of the prompt. Gemini is the best choice for users seeking more depth and detailed explanations
+```
