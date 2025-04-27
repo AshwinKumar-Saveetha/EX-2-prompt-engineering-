@@ -1,14 +1,21 @@
-# EX-2-prompt-engineering-Comparative Analysis of different types of Prompting patterns and explain with Various Test scenerios
+# EXP 5: Comparative Analysis of Naïve Prompting versus Basic Prompting Using ChatGPT Across Various Test Scenarios
+# Aim:
+To test how ChatGPT responds to naïve prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios, analyzing the quality, accuracy, and depth of the generated responses.
+# Algorithm:
+Define two prompt types: naïve (broad) and basic (clear, structured).
 
-Experiment:
-Test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios. 
-     Analyze the quality, accuracy, and depth of the generated responses.
+Create multiple test scenarios targeting creative, factual, summarizing, and comparative tasks.
+
+For each scenario, input both naïve and basic prompts into ChatGPT and record the responses.
+
+Compare outputs based on quality, accuracy, and depth.
+
+Analyze findings to determine the impact of prompt clarity on ChatGPT’s performance.
 
 # OUTPUT
-
 ### Purpose:
 To test and compare how two large language models — ChatGPT and Gemini — respond to different prompting patterns, specifically examining their behavior when given broad (unstructured) versus refined (clear) prompts, across different prompt styles.
-### Prompt Type 1: Intuition Behind Prompts
+## Prompt Type 1: Intuition Behind Prompts
 ### Prompt A (Broad):
 "Tell me something interesting."
 ### ChatGPT:
@@ -33,7 +40,7 @@ Prompt: "The sky is..." Intuition: The model predicts words commonly following "
 ### Example 2: 
 Prompt: "Translate 'hello' to French." Intuition: The model recognizes the translation task and predicts "bonjour."
 
-### Prompt Type 2: Straightforward Prompts
+## Prompt Type 2: Straightforward Prompts
 ### Prompt A (Broad):
 "Rain."
 ### ChatGPT:
@@ -47,7 +54,7 @@ Rainfall happens when warm, moist air rises, cools, and condenses into water dro
 ### Gemini:
  Warm, moist air rises, cools, and condenses into water droplets or ice crystals, forming clouds. When these droplets or crystals become too heavy, they fall to the Earth as rain. 
 
-### Prompt Type 3: Tabular Format Prompting
+## Prompt Type 3: Tabular Format Prompting
 ### Prompt A (Broad):
 "Tell me different types of energy."
 ### ChatGPT:
@@ -97,7 +104,7 @@ Machine learning models, on the other hand, learn from data, handle complex prob
 Rule-based systems excel in well-defined problems with clear, logical rules, offering transparency and consistency. However, they struggle with complex, dynamic situations requiring adaptation and learning. Machine learning models, on the other hand, learn from data to solve intricate problems, improve with more data, and handle ambiguity, but can be less transparent and require significant data for training.
 
 
-# RESULT:
+# Conclusion:
 ### Based on the analysis of quality, accuracy, and depth, both AI models perform well, with slight differences:
 ### 1.	Quality:
 Chat GPT provides more detailed explanations, while Gemini is generally more concise and focused.
@@ -106,3 +113,5 @@ Complex scenarios tend to be handled more accurately by ChatGPT, whereas simpler
 ### 3.	Depth:
 Gemini offers deeper responses in unstructured or broad prompts, while ChatGPT is more efficient in structured, refined prompts.
 Overall, the best model depends on user preference for detail, clarity, and the complexity of the prompt. Gemini is the best choice for users seeking more depth and detailed explanations
+# Result:
+The prompt for the above said problem executed successfully
